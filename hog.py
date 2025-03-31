@@ -10,8 +10,8 @@ cells_per_block = (2, 2)
 orientations = 9
 
 # Paths
-input_folder = "HAM10000_images_part_1/"
-output_csv = "HOG_features.csv"  # New CSV file for extracted features
+input_folder = "HAM10000_images/"
+output_csv = "HOG_features_full.csv"  # New CSV file for extracted features
 
 # Open CSV file for writing
 with open(output_csv, mode='w', newline='') as csvfile:
@@ -48,6 +48,6 @@ with open(output_csv, mode='w', newline='') as csvfile:
 
             # Write the extracted features to the CSV file
             writer.writerow(feature_row)
-            print(f"Processed: {filename}")
+            # print(f"Processed: {filename}")
 
 print(f"HOG feature extraction completed! Features saved in {output_csv}.")
