@@ -43,3 +43,5 @@ df_lbp_combined = pd.concat([df, lbp_df], axis=1)
 
 # Overwrite the original metadata file with new data including LBP features
 df_lbp_combined.to_csv('HAM10000_metadata.csv', index=False)
+
+print(f"LBP feature extraction completed! Features added as new columns in {df_lbp_combined}.")
