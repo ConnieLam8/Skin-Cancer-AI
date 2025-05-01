@@ -1,1 +1,3 @@
 # Skin-Cancer-AI
+
+In this project, we employ CNNs to analyze dermatoscopic images sourced from Kaggle and originally provided by the International Skin Imaging Collaboration (ISIC) [3]. The dataset includes 10,000 labeled images divided into seven categories: actinic keratoses (akiec, pre-cancerous), basal cell carcinoma (bcc, cancerous), benign keratosis-like lesions (bkl, non-cancerous), dermatofibroma (df, non-cancerous), melanocytic nevi (nv, non-cancerous), melanoma (mel, cancerous), and vascular lesions (vasc, potentially cancerous or benign). This diversity allows for the development of a solid and applicable classification model.
